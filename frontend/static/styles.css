@@ -1,0 +1,17 @@
+* { box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { background: #f6f7fb; margin: 0; padding: 24px; }
+.container { max-width: 860px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 10px 24px rgba(0,0,0,.08); }
+h1 { margin-top: 0; }
+.input-field { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+.input-field input { flex: 1 1 260px; padding: 10px 12px; border: 1px solid #e5e7eb; border-radius: 8px; }
+.input-field button { padding: 10px 14px; border: none; border-radius: 8px; background: #2563eb; color: #fff; cursor: pointer; }
+.input-field button:hover { background: #1d4ed8; }
+#post-container { display: grid; gap: 12px; }
+.post { position: relative; border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px; }
+.post h3 { margin: 0 0 6px; }
+.post .actions { display: flex; gap: 8px; margin-top: 8px; }
+.post button { padding: 6px 10px; border-radius: 6px; border: none; background: #0ea5e9; color: #fff; cursor: pointer; }
+.post button.danger { background: #ef4444; }
+.post button:hover { filter: brightness(0.95); }
+.empty { color: #6b7280; }
+.error { color: #b91c1c; }
